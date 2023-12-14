@@ -1,8 +1,8 @@
 //файл program.cpp
 #include <iostream>
-#include "funcs.h"
+#include "funcstup.h"
 using namespace std;
-int i,f,d;
+int i; double f,d;
 int main()
 {
 cout << MySum(10, 3) << endl;
