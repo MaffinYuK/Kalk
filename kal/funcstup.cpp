@@ -1,5 +1,5 @@
-//funcs.cpp
-#include "funcs.h"
+//funcstup.cpp
+#include "funcstup.h"
 double MySum(double a, double b)
 {
 return a + b;
