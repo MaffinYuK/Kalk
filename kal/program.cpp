@@ -2,6 +2,7 @@
 #include <iostream>
 #include "funcstup.h"
 #include "funcsym.h"
+#include "broba.h"
 using namespace std;
 int i; double f,d;
 
@@ -36,6 +37,10 @@ case 3:{cout <<f<<"*"<<d<<"=";
     }
 case 4:{cout <<f<<"/"<<d<<"=";
     cout << MyDiv(f, d) << endl;
+    break;
+    }
+case 5:{cout <<f<<"^"<<d<<"=";
+    cout << MyExp(f, d) << endl;
     break;
     }
 default:{cout << "Spasi bo" << endl;

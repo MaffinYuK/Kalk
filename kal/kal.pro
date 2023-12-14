@@ -6,12 +6,14 @@ CONFIG -= qt
 SOURCES += \
     funcstup.cpp \
     funcsym.cpp \
-    program.cpp
+    program.cpp \
+    broba.cpp
 
 include(deployment.pri)
 qtcAddDeployment()
 
 HEADERS += \
     funcstup.h \
-    funcsym.h
+    funcsym.h \
+    broba.h
 
