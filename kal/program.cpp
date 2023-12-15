@@ -3,6 +3,7 @@
 #include "funcstup.h"
 #include "funcsym.h"
 #include "broba.h"
+
 using namespace std;
 int i; double f,d;
 
@@ -17,6 +18,7 @@ int main()
     cout << "2.Izmenit vichti\n";
     cout << "3.Izmenit ymnoizhi\n";
     cout << "4.Izmenit deli\n";
+    cout << "5.Vozvedi pervoe vo vtoroe\n";
     cout << "Luboe chislo visti quit\n";
     cin >> i;
     system("cls");
