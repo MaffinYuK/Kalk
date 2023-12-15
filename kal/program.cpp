@@ -2,6 +2,7 @@
 #include <iostream>
 #include "funcstup.h"
 #include "funcsym.h"
+<<<<<<< HEAD
 #include "broba.h"
 
 using namespace std;
@@ -49,6 +50,17 @@ default:{cout << "Spasi bo" << endl;
     break;
     }
 }
+=======
+using namespace std;
+int i; double f,d;
+int main()
+{
+cout << MySum(10, 3) << endl;
+cout << MySub(10, 3) << endl;
+cout << MyMul(10, 3) << endl;
+cout << MyDiv(10, 3) << endl;
+
+>>>>>>> origin
 system("pause");
 return 0;
 }
